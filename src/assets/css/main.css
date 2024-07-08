@@ -704,7 +704,7 @@ input[type="number"],
 }
 
 .cForm textarea {
-	height: 170px;
+	height: 120px;
 	margin-bottom: -5px;
 	padding-top: 10px;
 	width: 630px;
