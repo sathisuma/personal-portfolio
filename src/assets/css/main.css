@@ -238,7 +238,7 @@ nav#mainNav a.active:after {
 .caption h3 {
 	color: white;
 	padding: 5px;
-	font-size: 20px;
+	font-size: 13px;
 	font-family: "Merriweather", serif;
 	font-style: italic;
 	font-weight: 400;
@@ -267,8 +267,39 @@ nav#mainNav a.active:after {
 	z-index: 0;
 }
 
+.caption button {
+	margin: 25px 10px 10px 10px;
+	padding: 5px 10px;
+	background-color: purple;
+	color: #fff !important;
+	border:2px solid white;
+	border-radius: 20px;
+}
+
+.caption button :active {
+	transform: translateY(2px);
+}
+
 /*End main slider*/
 
+
+/* Education */
+
+#education img{
+	width: 80%;
+	height:auto;
+	border-radius: 25px;
+	
+}
+
+#education p{
+	padding: 20px 0px;
+}
+
+#education .bg-path {
+	clip-path: polygon(0 1%, 97% 0, 100% 98%, 3% 98%);
+	background-color: #ccc;
+}
 
 /*About us*/
 
